@@ -1,0 +1,203 @@
+.Aboutus{
+  display: flex;
+  flex-direction: column;
+    &__header {
+      display: flex;
+      img {
+        height: 100%;
+      }
+    }
+   
+  &__group1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+  &__img1{
+    display: flex;
+    width: 1440px;
+    height: 513px;
+    flex-shrink: 0;
+    flex-direction: column;
+    
+      }
+  &__text{
+    justify-content: center;
+    position: absolute;
+    font-size: 18px;
+    padding: 21px 48px;
+    color: #FFF;
+    font-size: 56px;
+    font-family: Ultra;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;  
+    display: flex;
+    background-color: black;
+    top: 187px;
+    text-align:center
+      }
+    }
+  &__group2{
+    display: flex;
+    padding-top: 133px;
+    justify-content: space-around;
+    &__right{  
+      display: flex;
+      flex-direction: column;
+      &__head{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        &__text1{
+            display: flex;
+            color: #171B1B;
+            font-size: 16px;
+            font-family: Oswald;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        &__text2{
+          color: #171B1B;
+          font-size: 56px;
+          font-family: Ultra;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 64px;
+          width: 570px;
+          text-align: left;
+          display: flex;
+            }
+      }
+
+      &__alltext{
+        padding-top: 106px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 32px;
+        &__text1{
+          display: flex;
+          width: 147px;
+          height: 64px;
+          color: #171B1B;
+          font-size: 24px;
+          font-family: Oswald;
+          line-height: 32px;
+          text-align: left;
+          }
+            
+          &__text2{
+            
+              display: flex;
+              width: 370px;
+              height: 102px;
+              text-align: left;
+              color: rgba(51, 51, 51, 0.50);
+              font-size: 16px;
+              font-family: DM Sans;
+              line-height: 32px;
+              padding-top: 22px;
+          }
+      }
+    
+  }
+    &__left{
+      display: flex;
+      &__img{
+        display: flex;
+        flex: 2;
+    }
+  }
+  }
+  &__group3{
+    display: flex;
+    padding-top: 133px;
+    justify-content: space-around;
+    align-items: center;
+    &__left{
+        display: flex;
+        flex: 0;
+
+    }
+    &__right{
+      flex-direction: column;
+      display: flex;
+      
+      &__head{
+        display: flex;
+        flex-direction: column;
+        &__text1{
+            display: flex;
+            color: #171B1B;
+            font-size: 16px;
+            font-family: Oswald;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        &__text2{
+          color: #171B1B;
+          font-size: 56px;
+          font-family: Ultra;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 64px;
+          text-align: left;
+          display: flex;
+          width: 287px;
+            }
+      }
+      &__elem{
+        display: flex;
+        padding-top: 62px;
+        &__text{
+          
+          display: flex;
+          flex-direction: column;
+          &__chi{
+            display: flex;   
+            width: 18px;
+            height: 32px;
+            color: #171B1B;
+            font-size: 16px;
+            font-family: Oswald;
+            line-height: 32px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            padding-top: 41px;
+            padding-left: 49px;
+            }
+        &__textpro1{
+            padding-top: 18px;
+            padding-left: 33px;
+            display: flex;            
+            width: 193px;
+            height: 48px;
+            color: #171B1B;
+            font-size: 40px;
+            font-family: Ultra;
+            line-height: 48px;
+            }
+        &__textpro11{
+            padding-top: 22px;
+            padding-left: 40px;
+            display: flex;
+            width: 204px;
+            height: 93px;
+            color: rgba(51, 51, 51, 0.50);
+            font-size: 16px;
+            font-family: DM Sans;
+            line-height: 32px;
+            text-align: left;
+            }
+
+        }
+        &__img{
+          display: flex;
+          flex: 1;
+        }
+      }
+    }
+  }
+
+}
