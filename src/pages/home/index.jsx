@@ -134,7 +134,7 @@ const Homepage = () => {
         </div>
       </div>
 
-    <div className="footer">
+    <div className={'footer'}>
     <div class = {'footer__link'}>
     <div class = {'footer__link__Frigost_t'}> Frogist </div> 
     <div class = {'footer__link__menufooter'}> 

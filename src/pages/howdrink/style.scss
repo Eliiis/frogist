@@ -148,3 +148,161 @@
             
     
 }
+
+@media (max-width: 992px) {
+
+    .Howdrink{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        &__group1{
+            display: flex;
+            background-color:#9EAD8D ;
+            flex-direction: column;
+            &__text{
+                flex-direction: column;
+                color: #FFF;
+                font-size: 26px;
+                font-family: Ultra;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 64px;
+                padding: 22px 22px;
+    
+            }
+        }
+        &__group2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__text{
+                flex-direction: column;
+                display: flex;
+                width: 281px;
+                height: 64px;
+                color: #1B1B1D;
+                text-align: center;
+                font-size: 40px;
+                font-family: Ultra;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 64px;
+                padding-top: 122px;
+                }
+            &__clac{
+                display: flex;
+                position: absolute;
+                width: 221.659px;
+                height: 237.263px;
+                flex-shrink: 0;
+                padding-top:68px;
+                padding-right: 900px;   
+                display: none;
+            }
+            &__tochi{
+                display: none;
+                display: flex;
+                position: absolute;
+                
+                flex-shrink: 0;   
+                padding-top: 80px;
+                padding-left: 970px; 
+            }
+        }
+        &__group3{
+            display: flex;
+            padding-top:109px;
+            justify-content: center;
+            &__groupof3{
+                flex-direction: column;
+                justify-content: center;
+                display: flex;
+                justify-content: space-evenly;
+    
+                &__costa{
+                    width: 400px;
+                    height: 416px;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-direction: column;
+                    display: flex;
+    
+                    &__cofeorange{
+                        text-align: center;
+                        display: flex;
+                        width: 67px;
+                        height: 96px;
+                        flex-shrink: 0;
+                        
+    
+                        }
+                    &__textcosta{
+                        padding-top: 12;
+                        color: #171B1B;
+                        font-size: 30px;
+                        font-family: Oswald;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 32px;
+                        padding-left: 14px;
+                        }
+                    &__textcosta1{
+                        padding-left: 14px;
+                        color: rgba(51, 51, 51, 0.50);
+                        font-size: 18px;
+                        font-family: DM Sans;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 32px;
+                        padding-top: 58px;
+                        width: 306px;
+                        }
+                }
+                &__costagreen{
+    
+                    width: 400px;
+                    height: 416px;
+                    align-items: center;
+                    flex-direction: column;
+                    display: flex;
+                    background-color: #9EAD8D;
+                    &__cofeorange{
+                        text-align: center;
+                        display: flex;
+                        width: 95px;
+                        height: 96px;
+                        flex-shrink: 0;
+                        
+                        }
+                    &__textcosta{
+                        padding-top: 100px;
+                        color: #171B1B;
+                        font-size: 30px;
+                        font-family: Oswald;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 32px;
+                        display: flex;
+                        padding-left: 14px;
+
+                        }
+                    &__textcosta1{
+                        width: 306px;
+                        padding-top: 58px;
+                        padding-left: 14px;
+                        color: rgba(51, 51, 51, 0.50);
+                        font-size: 18px;
+                        font-family: DM Sans;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 32px;
+                        
+                        }
+            }
+    }  
+        }
+        
+                
+        
+    }
+}

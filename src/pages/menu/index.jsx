@@ -63,30 +63,36 @@ const Menu = () => {
           <div className = {'Menu__group3__groupof3'}>
           <div className = {'Menu__group3__groupof3__desert'}>
           <div className = {'Menu__group3__groupof3__desert__pic'}><img className = "green_m" src = {"/menu/green.svg"}/></div>
-          <div className = {'Menu__group3__groupof3__desert__name'}>Пирожное “Эмоция”</div>
-          <div className = {'Menu__group3__groupof3__desert__costgram'}>
-          <div className = {'Menu__group3__groupof3__desert__costgram__gram'}>100 гр</div>
-          <div className = {'Menu__group3__groupof3__desert__costgram__cost'}>210 ₽</div>
+          <div className = {'Menu__group3__groupof3__desert__text'}>
+          <div className = {'Menu__group3__groupof3__desert__text__name'}>Пирожное “Эмоция”</div>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram'}>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram__gram'}>100 гр</div>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram__cost'}>210 ₽</div>
           </div>
-          <div className = {'Menu__group3__groupof3__desert__text'}>Какие бы эмоции вы не испытывали в данный момент, эта будет точно положительная! </div>
+          <div className = {'Menu__group3__groupof3__desert__text__text'}>Какие бы эмоции вы не испытывали в данный момент, эта будет точно положительная! </div>
+          </div>
           </div>
           <div className = {'Menu__group3__groupof3__desert'}>
           <div className = {'Menu__group3__groupof3__desert__pic'}><img className = "des2_m" src = {"/menu/des2.svg"}/></div>
-          <div className = {'Menu__group3__groupof3__desert__name'}>Классический чизкейк</div>
-          <div className = {'Menu__group3__groupof3__desert__costgram'}>
-          <div className = {'Menu__group3__groupof3__desert__costgram__gram'}>124 гр</div>
-          <div className = {'Menu__group3__groupof3__desert__costgram__cost'}>159 ₽</div>
+          <div className = {'Menu__group3__groupof3__desert__text'}>
+          <div className = {'Menu__group3__groupof3__desert__text__name'}>Классический чизкейк</div>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram'}>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram__gram'}>124 гр</div>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram__cost'}>159 ₽</div>
           </div>
-          <div className = {'Menu__group3__groupof3__desert__text'}>Творожная крем-масса с крем-фрешем собственного приготовления, выложенная на песочной крошке Грехем; ганаш из белого шоколада. </div>
-          </div>
+          <div className = {'Menu__group3__groupof3__desert__text__text'}>Творожная крем-масса с крем-фрешем собственного приготовления, выложенная на песочной крошке Грехем; ганаш из белого шоколада. </div>
+          </div></div>
+          
           <div className = {'Menu__group3__groupof3__desert'}>
           <div className = {'Menu__group3__groupof3__desert__pic'}><img className = "des3_m" src = {"/menu/des3.svg"}/></div>
-          <div className = {'Menu__group3__groupof3__desert__name'}>Шоколадное печенье  с клюквой</div>
-          <div className = {'Menu__group3__groupof3__desert__costgram'}>
-          <div className = {'Menu__group3__groupof3__desert__costgram__gram'}>100 гр</div>
-          <div className = {'Menu__group3__groupof3__desert__costgram__cost'}>110 ₽</div>
+          <div className = {'Menu__group3__groupof3__desert__text'}>
+          <div className = {'Menu__group3__groupof3__desert__text__name'}>Шоколадное печенье  с клюквой</div>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram'}>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram__gram'}>100 гр</div>
+          <div className = {'Menu__group3__groupof3__desert__text__costgram__cost'}>110 ₽</div>
           </div>
-          <div className = {'Menu__group3__groupof3__desert__text'}>Фундучное печенье с кусочками белого шоколада и клюквой. </div>
+          <div className = {'Menu__group3__groupof3__desert__text__text'}>Фундучное печенье с кусочками белого шоколада и клюквой. </div>
+          </div>
           </div>
           </div>
 

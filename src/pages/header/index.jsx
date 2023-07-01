@@ -29,6 +29,28 @@ export const HeaderPage = () => {
             </div>
           </div>
         </div>
+        <div className={'header-mobile'}>
+        
+        <div className = {'header-mobile__logo'}> 
+            <div> 
+            <Link to={'/'}>Frogist</Link>
+            </div>
+          </div> 
+          <div className={'header-mobile__menu'}>
+          <div>
+              <Link to={'/aboutus'}>О нас</Link> 
+            </div> 
+            <div> 
+              <Link to={'/menu'}>Меню</Link> 
+            </div> 
+            <div> 
+              <Link to={'/cofe'}>О кофе</Link> 
+            </div> 
+            <div> 
+              <Link to={'/howdrink'}>Как правильно пить кофе</Link> 
+            </div>
+        </div>
+        </div>
     </React.Fragment>
     )
 }
