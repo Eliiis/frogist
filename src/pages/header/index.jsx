@@ -8,7 +8,7 @@ export const HeaderPage = () => {
 
   return (
     <React.Fragment>
-       <div className = "header"> 
+       <div className = {'header'}> 
           <div className = {'header__logo'}> 
             <div>
             <Link to={'/'}>Frogist</Link>
@@ -29,6 +29,7 @@ export const HeaderPage = () => {
             </div>
           </div>
         </div>
+        
         <div className={'header-mobile'}>
         
         <div className = {'header-mobile__logo'}> 
